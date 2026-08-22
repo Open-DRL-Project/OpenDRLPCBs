@@ -3236,16 +3236,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 30.48) (xy 271.78 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e572633-4e40-4812-9c52-2a8f82fe8b25")
-	)
-	(wire
-		(pts
 			(xy 74.93 181.61) (xy 74.93 187.96)
 		)
 		(stroke
@@ -3303,6 +3293,16 @@
 			(type default)
 		)
 		(uuid "5a2357e9-d22f-4751-9fa6-b6df04af2a8c")
+	)
+	(wire
+		(pts
+			(xy 262.89 30.48) (xy 273.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8ddec1-40bd-445f-9974-1f14a489030e")
 	)
 	(wire
 		(pts
@@ -3413,16 +3413,6 @@
 			(type default)
 		)
 		(uuid "8531d724-1150-4c18-83b3-87a797f84762")
-	)
-	(wire
-		(pts
-			(xy 262.89 33.02) (xy 271.78 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86771dbe-1e88-4919-8ce8-b91e901a8c71")
 	)
 	(wire
 		(pts
@@ -3656,6 +3646,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 33.02) (xy 273.05 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d593cb12-8958-4343-9de8-6cf66563bffc")
+	)
+	(wire
+		(pts
 			(xy 185.42 86.36) (xy 194.31 86.36)
 		)
 		(stroke
@@ -3768,6 +3768,30 @@
 			)
 		)
 	)
+	(global_label "JST3PIN4"
+		(shape input)
+		(at 273.05 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cf56462-34d9-4cf7-b6b2-b29174eda638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.2958 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "USBDM"
 		(shape input)
 		(at 124.46 63.5 0)
@@ -3794,7 +3818,7 @@
 	)
 	(global_label "USBDP"
 		(shape input)
-		(at 262.89 30.48 180)
+		(at 262.89 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3804,7 +3828,7 @@
 		)
 		(uuid "4635fcac-9331-4c9f-930d-1936607c4f01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5548 30.48 0)
+			(at 253.5548 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,7 +3914,7 @@
 	)
 	(global_label "USBDM"
 		(shape input)
-		(at 262.89 33.02 180)
+		(at 262.89 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3900,7 +3924,31 @@
 		)
 		(uuid "7b6e3506-e9b9-4836-b367-80e98a74755b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.3734 33.02 0)
+			(at 253.3734 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "JST3PIN4"
+		(shape input)
+		(at 77.47 123.19 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c4a3053-9602-4a10-9323-b57ed63feca0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 134.9442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4908,7 @@
 	)
 	(symbol
 		(lib_id "JSTCons:5Pin")
-		(at 274.32 33.02 0)
+		(at 275.59 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4871,7 +4919,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ffd068e-7641-42ad-b56e-317df19aa051")
 		(property "Reference" "J1"
-			(at 279.4 27.9399 0)
+			(at 280.67 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4882,7 +4930,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 274.32 33.02 0)
+			(at 275.59 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4892,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 33.02 0)
+			(at 275.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +4951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 33.02 0)
+			(at 275.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,7 +4962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 33.02 0)
+			(at 275.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5864,6 +5912,96 @@
 			(project "LedDriver"
 				(path "/b8b1ee11-cbc7-4ed7-a3ef-d663a64fa814"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JSTCons:5Pin")
+		(at 275.59 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd36f4c-21a4-4363-901f-2c3263fd4156")
+		(property "Reference" "J3"
+			(at 280.67 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 275.59 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "3f7af08f-27c0-46c1-8dcd-6dfeb58301f9")
+		)
+		(pin "2"
+			(uuid "1b0d96c0-520b-4664-ac45-632270536c2f")
+		)
+		(pin "1"
+			(uuid "4d051bab-c5c1-44e0-b5e6-4551ddceaad1")
+		)
+		(pin "3"
+			(uuid "28a7b053-25e2-4654-bdf0-1f952a0a8b95")
+		)
+		(pin "4"
+			(uuid "de9de9bb-6ab2-480d-b18b-2e543cc01269")
+		)
+		(instances
+			(project "LedDriver"
+				(path "/b8b1ee11-cbc7-4ed7-a3ef-d663a64fa814"
+					(reference "J3")
 					(unit 1)
 				)
 			)
